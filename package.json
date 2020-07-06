@@ -1,0 +1,13 @@
+{
+   "name": "scroll-style",
+   "version": "1.0.0",
+   "private": false,
+   "description": "scroll style",
+   "repository": "https://github.com/yonicalsin/scroll-style.git",
+   "license": "MIT",
+   "author": "Yoni Calsin <helloyonicb@gmail.com>",
+   "main": "index.scss",
+   "scripts": {
+      "format": "prettier --write ./**/*.{json,css,scss}"
+   }
+}
