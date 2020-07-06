@@ -1,4 +1,4 @@
-@import 'variables';
+@import 'variables.scss';
 
 ::-webkit-scrollbar-track {
    border-radius: $scroll-track-radius;
@@ -9,6 +9,11 @@
    width: $scroll-width;
    height: $scroll-height;
 }
+
+::-webkit-scrollbar:horizontal {
+   height: $scroll-height;
+}
+
 ::-webkit-scrollbar-thumb {
    border-radius: $scroll-thumb-radius;
    background-color: $scroll-thumb-color;
