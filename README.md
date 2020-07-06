@@ -26,13 +26,21 @@ yarn add scroll-style
 
 ## Usage
 
-For sass / scss
+-  For react
+
+```js
+import 'node_modules/scroll-style/index.css';
+```
+
+-  For sass / scss
 
 ```scss
 @import '~scroll-style';
 // or
 @import 'node_modules/scroll-style/index.scss';
 ```
+
+-  Or or download the css file `index.css`
 
 ## ⭐ Support for
 
