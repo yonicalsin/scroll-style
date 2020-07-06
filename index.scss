@@ -1,0 +1,15 @@
+@import 'variables';
+
+::-webkit-scrollbar-track {
+   border-radius: $scroll-track-radius;
+   background-color: $scroll-track-color;
+}
+
+::-webkit-scrollbar {
+   width: $scroll-width;
+   height: $scroll-height;
+}
+::-webkit-scrollbar-thumb {
+   border-radius: $scroll-thumb-radius;
+   background-color: $scroll-thumb-color;
+}
